@@ -1,0 +1,67 @@
+/* logo */
+body{
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: rgb(255, 220, 168);
+    font-family: 'Times New Roman', Times, serif;
+}
+#logo{
+    border: 5px dotted rgb(0, 0, 0);
+    border-radius: 300px; 
+    width: 10%;
+    height: auto;
+}
+.center{
+    text-align: center;
+}
+
+#imgShow{
+    border: 5px solid rgb(0, 0, 0);
+    width: 25%;
+    height: auto;
+    
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.left_page{
+    text-align: left;
+}
+
+ul{
+    font-size: 12pt;
+    margin: auto;
+    width: 200px;
+}
+
+/* unvisited link */
+a:link{
+	color: #3235f5; 
+}  */
+/* visited link */
+a:visited{
+	color: #c36dfd; 
+} 
+/* mouse over link */  
+ a:hover{ 
+	color: #ff0000; 
+} 
+
+.padding{
+    margin: 20px;
+}
+
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.flex_container > div{
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
